@@ -94,8 +94,8 @@ const Comida = ({food}) => {
                   <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body bg-dark justify-content-center">
                       <ReactPlayer url={cmd.strYoutube} className='justify-content-center' width='auto' height='100%'/>
-                      'doble clic para pantalla completa'
-                    </div>
+                      </div>
+                      <p>doble clic para pantalla completa</p>
                   </div>
                 </div>             
               </div>
